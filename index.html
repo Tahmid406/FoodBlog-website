@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpoonFull</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script src="./Bootstrap/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="navigation">
+      <nav class="navbar navbar-expand-sm navbar-bg">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item verticle-line-left">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item verticle-line-left">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav me-left mb-2 mb-lg-0">
+              <li class="nav-item"><i class="fa-brands fa-pinterest-p"></i></li>
+              <li class="nav-item"><i class="fa-brands fa-youtube"></i></li>
+              <li class="nav-item"><i class="fa-brands fa-twitter"></i></li>
+              <li class="nav-item"><i class="fa-brands fa-facebook-f"></i></li>
+              <li class="nav-item"><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="corousel">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-logo">SpoonFull</div>
+          <div class="carousel-item active">
+            <img src="./Assets/Corousel/brownies.png" class="d-block w-100" alt="brownies" />
+            <div class="carousel-caption d-none d-md-block">
+              <h6>January 04, 2022</h6>
+              <h1>
+                Chocolate <br />
+                with melted chocolate
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur
+                nobis velit aut nesciunt aliquid veritatis perspiciatis quaerat nihil molestiae!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Assets/Corousel/pancakes.png" class="d-block w-100" alt="pancakes" />
+            <div class="carousel-caption d-none d-md-block">
+              <h6>May 12, 2022</h6>
+              <h1>
+                Pancakes <br />
+                with sliced strawberry
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsa a animi
+                deleniti veritatis consectetur accusamus minima eveniet soluta alias.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Assets/Corousel/grills.png" class="d-block w-100" alt="grills" />
+            <div class="carousel-caption d-none d-md-block">
+              <h6>September 22, 2022</h6>
+              <h1>Grilled chicken wings</h1>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur in repellendus
+                recusandae? Sed deserunt explicabo inventore ea optio veniam necessitatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="catagories">
+      <div class="container">
+        <div class="browse-category">Browse by Categories</div>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/soup.png" alt="Soup" />
+              <p>Soup</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/drinks.png" alt="drinks" />
+              <p>Drinks</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/breakfast.png" alt="breakfast" />
+              <p>Breakfast</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/desert.png" alt="desert" />
+              <p>Deserts</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/sides.png" alt="sides" />
+              <p>Sides</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/pasta.png" alt="pasta" />
+              <p>Pasta</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/beverage.png" alt="beverage" />
+              <p>Beverages</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/pizza.png" alt="pizza" />
+              <p>Pizza</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/chicken.png" alt="chicken" />
+              <p>Chicken</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/bread.png" alt="bread" />
+              <p>Breads</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/main dish.png" alt="main dish" />
+              <p>Main dish</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="category">
+              <img src="./Assets/Category/salad.png" alt="salad" />
+              <p>Salads</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="popular-items">
+      <h1 class="popular-dishes-title">Most Popular Dishes</h1>
+      <div class="container">
+        <div class="card-group">
+          <div class="card bg-black">
+            <img src="./Assets/Popular-dish/burger.jpg" class="card-img-top" alt="..." />
+            <div class="card-img-overlay">
+              <div class="top-rated">
+                <i class="fa-solid fa-check"></i>
+                <p class="top-rated">Top Rated</p>
+              </div>
+              <h5 class="card-title">Bacon Jumbo Burger</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit animi, aliquam
+                assumenda.
+              </p>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="./Assets/Popular-dish/chicken.jpg" class="card-img-top" alt="..." />
+            <div class="card-img-overlay">
+              <div class="top-rated">
+                <i class="fa-solid fa-check"></i>
+                <p class="top-rated">Top Rated</p>
+              </div>
+              <h5 class="card-title">Spicy Chicken Wings</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit animi, aliquam
+                assumenda rem minima.
+              </p>
+            </div>
+          </div>
+          <div class="card bg-black">
+            <img src="./Assets/Popular-dish/steak.jpg" class="card-img-top" alt="..." />
+            <div class="card-img-overlay">
+              <div class="top-rated">
+                <i class="fa-solid fa-check"></i>
+                <p class="top-rated">Top Rated</p>
+              </div>
+              <h5 class="card-title">Medium rare steak</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam incidunt dolores
+                vero facere voluptatem labore pariatur corrupti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-us">
+      <div class="container">
+        <h1 class="about-us-title">About Us</h1>
+        <div class="row g-5">
+          <div class="col-md-5">
+            <img src="./Assets/About us/pexels-lisa-fotios-1655329.jpg" alt="us" />
+          </div>
+          <div class="col-md-7">
+            <div class="box">Travelling around the world in search of the best</div>
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. At ut doloribus ex sequi
+              facilis officiis tempore quae eos nesciunt accusamus? Itaque dolorem aut ipsum! Alias
+              architecto quod ipsum laudantium quas.
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime consequatur
+              perferendis mollitia atque consequuntur et ipsa dolorum laborum cupiditate quo quis
+              soluta quam laudantium, in possimus reiciendis exercitationem blanditiis repellat enim
+              asperiores ipsum totam rerum, vero sed. Quibusdam quia harum porro esse molestias,
+              laborum facere at ad earum quisquam sit!
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto rerum totam modi,
+              nihil adipisci similique minima esse reprehenderit eos sapiente?
+              <br />
+              <br />
+              <br />
+              <span class="signature">Tahmid Zaman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

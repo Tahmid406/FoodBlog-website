@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display:ital@0;1&family=Jost:wght@300;400;500&family=Pacifico&display=swap");
+
+/* navbar section  */
+.navbar-bg {
+  background-color: #1c412c;
+}
+.verticle-line-left {
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+.nav-item a {
+  font-family: "Jost";
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  padding: 0px;
+  margin: 0px 6px;
+}
+.nav-item a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+.nav-item a:visited {
+  color: rgba(255, 255, 255, 0.7);
+}
+.nav-item i {
+  margin-left: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+.nav-item i:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+/* corousel section  */
+.carousel {
+  background-color: black;
+}
+.carousel-item img {
+  height: 75vh;
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  letter-spacing: 2px;
+  font-size: 64px;
+  font-family: "DM Serif Display", serif;
+}
+.carousel-caption p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.carousel-caption h6 {
+  font-family: "DM Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 40px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.carousel-logo {
+  z-index: 2;
+  position: absolute;
+  color: white;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  font-family: "Pacifico", cursive;
+  font-size: 28px;
+  padding: 10px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+/* Catagories */
+#catagories {
+  background-color: #ebe6da;
+  padding: 50px 0;
+}
+.category {
+  display: flex;
+  background-color: white;
+  margin: 10px 0px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.category img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: 0.2s;
+}
+.category:hover img {
+  border-radius: 50%;
+  transform: rotate(8deg) scale(1.1);
+  transition: 0.2s;
+}
+.category p {
+  margin: auto;
+  margin-left: 15px;
+  font-family: "Jost";
+  font-weight: 500;
+}
+.browse-category {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: "Jost";
+  letter-spacing: 4px;
+  font-weight: 450;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Popular dishes */
+.popular-dishes-title {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  font-family: "DM Serif Display", serif;
+  color: #4b3e3a;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+.card img {
+  height: 450px;
+  opacity: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+.card {
+  color: white;
+  border: none;
+}
+.card-img-overlay {
+  margin-bottom: 10px;
+}
+.card-img-overlay h5 {
+  position: absolute;
+  font-family: "Jost";
+  font-size: 26px;
+  top: 270px;
+  padding: 0px 40px;
+}
+.card-img-overlay .card-text {
+  position: absolute;
+  font-family: "DM Sans", sans-serif;
+  margin-top: 20px;
+  opacity: 70%;
+  top: 300px;
+  padding: 0px 40px;
+}
+.card-img-overlay .top-rated {
+  display: inline-block;
+  font-family: "DM Sans", sans-serif;
+  opacity: 80%;
+  font-size: 13px;
+  margin: 10px 10px;
+}
+.card-group {
+  margin-bottom: 80px;
+}
+
+/* About us */
+#about-us {
+  background-color: #ebe6da;
+  padding: 50px 0;
+}
+.about-us-title {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-family: "DM Serif Display", serif;
+  color: #4b3e3a;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+#about-us img {
+  border-radius: 15px;
+  width: 100%;
+}
+#about-us .box {
+  background-color: white;
+  position: absolute;
+  padding: 20px 30px;
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin-left: -100px;
+  margin-top: 50px;
+  line-height: 50px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: 0px 0px 35px 1px rgba(0, 0, 0, 0.3);
+}
+#about-us .content {
+  margin: 250px 40px;
+  font-family: "DM Sans", sans-serif;
+  opacity: 80%;
+}
+#about-us .signature {
+  font-family: "Pacifico", cursive;
+  opacity: 100%;
+  font-size: 32px;
+}
